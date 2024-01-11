@@ -1,9 +1,9 @@
 def create_vertex(v):
     if v in graph:
         print(v, "is already present")
-
     else:
         graph[v]=[]
+
 def add_edge(v1,v2):
     if v1 not in graph:
         print(v1, "is not present in the graph")
@@ -50,7 +50,6 @@ add_edge(2, 5)
 add_edge(3, 6)
 
 print("Add edge",graph)
-
-BFS(6)
-
+print("Show Binary First Search")
+BFS(0) 
 print()
